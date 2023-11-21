@@ -1,0 +1,70 @@
+.pricing_list {
+    /*width: 1525px;*/
+    /*height: 995px;*/
+    background-color: black;
+    background-image: url("../../assets/background2.png");
+    width: 1931px;
+    height: 718px;
+    flex-shrink: 0;
+
+}
+
+.title {
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.title2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 190px;
+}
+.title3{
+    color: #979797;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 310px;
+}
+.titles45{
+    display: flex;
+    /*margin-left: 30px;*/
+    justify-content: center;
+    margin-left: 230px;
+}
+.title4{
+    margin-top: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+.title4_1{
+    margin-top: 20px;
+    color: white;
+    margin-left: 130px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}

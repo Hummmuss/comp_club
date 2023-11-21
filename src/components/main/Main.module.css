@@ -1,14 +1,23 @@
 .main {
-    width: 1525px;
-    height: 995px;
+    /*width: 1525px;*/
+    /*height: 995px;*/
+    width: 1920px;
+    height: 800px;
+    flex-shrink: 0;
     background-color: black;
+    background-image: url("../../assets/4k-cyberpunk-2077-ps-game-sr-1920x1080 1.png");
+}
+.form{
+    background-image: url("http://www.w3.org/2000/svg");
+    width: 1143px;
+    height: 525px;
+    flex-shrink: 0;
 
 }
-
 .title {
     margin-top: 100px;
     margin-left: 150px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     font-weight: 500;
     line-height: 73px;
@@ -21,7 +30,7 @@
     top: 20px;
     color: white;
     margin-left: 150px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 27px;
     font-weight: 500;
     line-height: 33px;
@@ -58,7 +67,9 @@
 
 
 .button2:hover{
-    color: #C3A7FF;
+    border-radius: 18px;
+    background: #C3A7FF;
+    border-color: #C3A7FF;
 }
 
 .advantages {
