@@ -1,0 +1,75 @@
+.main {
+    width: 1525px;
+    height: 995px;
+    background-color: black;
+
+}
+
+.title {
+    margin-top: 100px;
+    margin-left: 150px;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.description {
+    top: 20px;
+    color: white;
+    margin-left: 150px;
+    font-family: 'Montserrat';
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.button1 {
+    background: #957CCB;
+    width: 300px;
+    height: 70px;
+    top: 50px;
+    left: 140px;
+    padding: 10px;
+    border-radius: 18px;
+    gap: 10px;
+    border-color: #957CCB;
+
+}
+
+.button2 {
+    background: #050505;
+    width: 210px;
+    height: 70px;
+    top: 50px;
+    left: 180px;
+    padding: 10px;
+    border-radius: 18px;
+    /*border: 8px;*/
+    border-width: 6px;
+    gap: 10px;
+    border-color: #957CCB;
+}
+
+
+.button2:hover{
+    color: #C3A7FF;
+}
+
+.advantages {
+    color: white;
+    margin-top: 250px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+
+}
+.advantages p {
+    /*margin-bottom: 20px;*/
+}
+

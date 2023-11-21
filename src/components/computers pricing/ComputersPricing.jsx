@@ -3,6 +3,7 @@ import style from './ComputersPricing.module.css'
 const ComputersPricing = () => {
     return (
         <div>
+
         </div>
     );
 };
