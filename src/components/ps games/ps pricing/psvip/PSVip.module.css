@@ -1,8 +1,8 @@
 .block{
     width: 1920px;
-    height: 550px;
+    height: 622px;
     flex-shrink: 0;
-    background-color: #c016ac;
+    background-color: #b077c5;
 }
 .title{
     font-size: 50px;

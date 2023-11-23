@@ -1,9 +1,12 @@
 import React from 'react';
 import style from './PSGames.module.css'
+import {Layout} from "antd";
+import styles from "../ps games/PSGames.module.css";
 const PsGames = () => {
     return (
-        <div>
-        </div>
+        <Layout className={styles.block}>
+            <div className={styles.title}>PSGAMES <br/></div>
+        </Layout>
     );
 };
 

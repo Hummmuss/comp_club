@@ -1,0 +1,26 @@
+.block {
+    width: 1920px;
+    height: 402px;
+    flex-shrink: 0;
+    background: #1B1B1B;
+}
+
+.title {
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 82px;
+}
+
+.description {
+    color: #FCFCFC;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 15px;
+}
