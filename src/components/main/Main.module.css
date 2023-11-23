@@ -6,6 +6,8 @@
     flex-shrink: 0;
     background-color: black;
     background-image: url("../../assets/4k-cyberpunk-2077-ps-game-sr-1920x1080 1.png");
+    padding-right: 0;
+    padding-left: 0;
 }
 .form{
     background-image: url("http://www.w3.org/2000/svg");
@@ -67,7 +69,6 @@
 
 
 .button2:hover{
-    border-radius: 18px;
     background: #C3A7FF;
     border-color: #C3A7FF;
 }
