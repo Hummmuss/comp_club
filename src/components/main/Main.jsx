@@ -11,14 +11,14 @@ const Main = () => {
                 {/*<img src='../../assets/Vector.png'/>*/}
                 <div className={styles.description}>Хочешь хорошо отдохнуть, прокачать <br /> свой скилл и поиграть с друзьями?<br />
                     Ты попал по адресу!</div>
-                <Button className={styles.button1} style={{color: 'white', fontFamily: 'Montserrat',
+                <Button className={styles.buttonBron} style={{color: 'white', fontFamily: 'Montserrat,  sans-serif',
                     fontSize: '27px',
                     fontWeight: 700,
                     lineHeight: '33px',
                     letterSpacing: '0em',
                     textAlign: 'center'
                 }}> Забронировать</Button>
-                <Button className={styles.button2} style={{color: 'white', fontFamily: 'Montserrat',
+                <Button className={styles.buttonTariff} style={{color: 'white', fontFamily: 'Montserrat, sans-serif',
                     fontSize: '27px',
                     fontWeight: 700,
                     lineHeight: '33px',

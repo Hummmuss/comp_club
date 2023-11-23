@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './ComputersPricing.module.css'
 import {Content} from "antd/es/layout/layout";
 import {Layout} from "antd";
-
+//Я ДУМАЮ ЭТО "ТАРИФЫ НА КОМПЬЮТЕРЫ"
 const ComputersPricing = () => {
     return (
         <Layout className={styles.pricing_list}>

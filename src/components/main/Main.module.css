@@ -2,12 +2,14 @@
     /*width: 1525px;*/
     /*height: 995px;*/
     width: 1920px;
-    height: 800px;
+    height: 995px;
     flex-shrink: 0;
+   
     background-color: black;
     background-image: url("../../assets/4k-cyberpunk-2077-ps-game-sr-1920x1080 1.png");
     padding-right: 0;
     padding-left: 0;
+
 }
 .form{
     background-image: url("http://www.w3.org/2000/svg");
@@ -40,20 +42,22 @@
     text-align: left;
 }
 
-.button1 {
+.buttonBron {
     background: #957CCB;
     width: 300px;
     height: 70px;
     top: 50px;
     left: 140px;
-    padding: 10px;
     border-radius: 18px;
     gap: 10px;
     border-color: #957CCB;
-
+    margin-left: 14px;
+}
+.buttonBron:hover::before {
+    border-color: #c016ac;
 }
 
-.button2 {
+.buttonTariff {
     background: #050505;
     width: 210px;
     height: 70px;
@@ -75,10 +79,15 @@
 
 .advantages {
     color: white;
-    margin-top: 250px;
+    padding-top: 250px;
     display: flex;
-    margin-left: 30px;
+    padding-left: 150px;
     justify-content: space-between;
+    text-align: center;
+    /*font-weight: bolder;*/
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 
 }
 .advantages p {
