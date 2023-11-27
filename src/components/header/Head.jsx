@@ -2,12 +2,12 @@ import React from 'react';
 import './Head.module.css';
 import {Layout, Menu} from 'antd';
 import styles from './Head.module.css'
-import logo from '../../assets/img.png'
+import logo from '../../assets/Logo.png'
 
 const {Header} = Layout;
 const Head = () => {
     return (
-        <Header style={{width: '1920px', height: '77px', background: 'black'}}>
+        <Header style={{height: '77px', background: 'black'}}>
 
             {/*<img src={logo} style={{width: '10', height: '53'}}/>*/}
             <Menu theme="dark" mode="horizontal" style={{backgroundColor: 'black', justifyContent: 'left'}}>

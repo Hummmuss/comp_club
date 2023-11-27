@@ -1,4 +1,4 @@
-import styles from'./App.css'
+import styles from './App.css'
 import ComputersPricing from "./components/computers pricing/ComputersPricing.jsx";
 // import Header from "./components/header/Head.jsx";
 import PSPricing from "./components/ps games/ps pricing/PSPricing.jsx";
