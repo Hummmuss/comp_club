@@ -68,9 +68,12 @@
     height: 94px;
 }
 
+.subtitle {
+    font-weight: 700;
+}
 
 .title4 {
-    margin: 20px 40px 0 0;
+    margin: 20px 20px 0 0;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 27px;

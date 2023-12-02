@@ -23,7 +23,8 @@ const ComputersPricing = () => {
                             <img className={styles.AngleDown} src={AngleDown}/>
                         </div>
                         <div style={{display: "flex", flex: "wrap"}}>
-                            <div className={styles.title4}>Будни
+                            <div className={styles.title4}>
+                                <span className={styles.subtitle}>Будни</span>
                                 <p>1 час - 100 р.<br/>
                                     3 часа - 250 р.<br/>
                                     5 часов - 450 р.<br/>
@@ -33,7 +34,7 @@ const ComputersPricing = () => {
                             </div>
 
                             <div className={styles.title4_1}>
-                                Выходные
+                                <span className={styles.subtitle}>Выходные</span>
                                 <p>
                                     1 час - 110 р.<br/>
                                     3 часа - 300 р.<br/>

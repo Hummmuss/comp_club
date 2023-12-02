@@ -12,14 +12,15 @@ const Bootcamp = () => {
                 <div className={styles.rectangle}>
                     <div>
                         <div className={styles.prices}>
-                            <div style={{display: "flex", flex: "wrap", height: 95, justifyContent: "left"}}>
+                            <div style={{display: "flex", flex: "wrap", justifyContent: "left"}}>
                                 <div style={{position: "absolute", top: 10, left: 0}}>
                                     <div className={styles.title2}>Playstation в VIP зале</div>
                                 </div>
                                 <img className={styles.AngleDown} src={AngleDown}/>
                             </div>
-                            <div style={{display: "flex", flex: "wrap"}}>
-                                <div className={styles.title4}>Будни
+                            <div style={{display: "flex", flex: "wrap", marginTop: 30}}>
+                                <div className={styles.title4}>
+                                    <span className={styles.subtitle}>Будни</span>
                                     <p>1 час - 300 р.<br/>
                                         3 часа - 700 р.<br/>
                                         5 часов - 900 р.<br/>
@@ -28,7 +29,7 @@ const Bootcamp = () => {
                                 </div>
 
                                 <div className={styles.title4_1}>
-                                    Выходные
+                                    <span className={styles.subtitle}>Выходные</span>
                                     <p>1 час - 400 р.<br/>
                                         3 часа - 900 р.<br/>
                                         5 часов - 1200 р.<br/>
