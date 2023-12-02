@@ -1,4 +1,23 @@
-/*.logo{*/
-/*background-image: url("../../assets/Logo.png");*/
-/*    background-size: 20px;*/
-/*}*/
+.header {
+    height: 77px;
+    background: black;
+}
+
+.menu {
+    padding: 10px;
+    background-color: black;
+    justify-content: left
+}
+
+.menu_item {
+    background-color: black;
+    font-size: 24px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500
+}
+.logo {
+    width: 50px;
+    margin-left: 130px;
+}

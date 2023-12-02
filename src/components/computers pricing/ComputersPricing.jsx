@@ -13,10 +13,10 @@ const ComputersPricing = () => {
                     <div className={styles.title}>Тарифы на компьютеры</div>
 
 
-                    <div className={styles.titles45}>
+                    <div className={styles.prices}>
 
                         <div style={{display: "flex", flex: "wrap", height: 95, justifyContent: "left"}}>
-                            <div style={{position: "absolute", top: 10}}>
+                            <div style={{position: "absolute", top: 10, left: 0}}>
                                 <div className={styles.title2}>Компьютеры в общем зале</div>
                                 <div className={styles.title3}>RTX 2080 + i5 10400F</div>
                             </div>
@@ -32,12 +32,15 @@ const ComputersPricing = () => {
                                 </p>
                             </div>
 
-                            <div className={styles.title4_1}>Выходные
-                                <p>1 час - 110 р.<br/>
+                            <div className={styles.title4_1}>
+                                Выходные
+                                <p>
+                                    1 час - 110 р.<br/>
                                     3 часа - 300 р.<br/>
                                     5 часов - 450 р.<br/>
                                     Пакет “Утро” - 300 р. <br/>
-                                    Пакет “Ночь” - 480</p>
+                                    Пакет “Ночь” - 480р.
+                                </p>
                             </div>
                         </div>
 

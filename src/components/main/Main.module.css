@@ -1,7 +1,7 @@
 .main {
     height: 100vh;
     background-color: black;
-    background-image: url("../../assets/4k-cyberpunk-2077-ps-game-sr-1920x1080 1.png");
+    background-image: url("../../assets/background1.png");
     background-size: cover;
 }
 .form{
@@ -10,7 +10,7 @@
 }
 
 .rectangle {
-    height: 50%;
+    height: 55%;
     padding-top: 80px;
     padding-left: 50px;
     background-image: url("../../assets/Rectangle_Left.png");
@@ -89,7 +89,7 @@
 
 .advantages_container {
     width: 100%;
-    height: 50%;
+    height: 45%;
     background-color: rgba(15, 15, 16, 0.94);
     position: absolute;
     bottom: 0;
