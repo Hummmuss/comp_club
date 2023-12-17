@@ -9,8 +9,8 @@ import photo3 from '..//..//assets/photoSlider3.png'
 import {CaretLeftOutlined, CaretRightOutlined, LeftCircleOutlined, RightCircleOutlined} from "@ant-design/icons";
 
 const Gallery = () => {
-    // const prevArrow = <Button icon={<LeftCircleOutlined  style={{color: 'purple', fontSize: '30px' }}/>}/>;
-    const nextArrow = <Button icon={<RightCircleOutlined style={{color: 'purple', fontSize: '50px'}}/>}/>;
+    const prevArrow = <Button icon={<LeftCircleOutlined  style={{color: 'purple', fontSize: '50px', paddingLeft:230, paddingTop:50}}/>}/>;
+    const nextArrow = <Button icon={<RightCircleOutlined style={{color: 'purple', fontSize: '50px', paddingRight:100,  paddingTop:50}}/>}/>;
     const ref = useRef();
     const onChange = (current) => {
         console.log('Current slide:', current);
@@ -25,6 +25,7 @@ const Gallery = () => {
                           arrows
                           className={styles.carousel}
                           nextArrow={nextArrow}
+                          prevArrow={prevArrow}
                 >
                     <div>
                         <img

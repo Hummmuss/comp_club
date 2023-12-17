@@ -6,7 +6,7 @@
 
 .title {
     justify-content: center;
-    padding-left: 800px;
+    padding-left: 630px;
     padding-top: 109px;
     color: #FFF;
     font-family: Montserrat, sans-serif;
@@ -17,16 +17,16 @@
 }
 
 .carousel {
-    width: 1000px;
+    width: 900px;
     height: 400px;
     /*justify-content: center;*/
     padding-top: 61px;
-    padding-left: 500px;
+    padding-left: 260px;
     margin-left: 160px;
 }
 
 .photo {
-    width: 600px;
-    height: 306px;
+    width: 650px;
+    height: 400px;
     flex-shrink: 0;
 }

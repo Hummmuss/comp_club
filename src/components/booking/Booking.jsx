@@ -1,11 +1,24 @@
 import React from 'react';
 import style from './Booking.module.css'
-import {Layout} from "antd";
+import {Button, Layout} from "antd";
 import styles from "../booking/Booking.module.css";
+import bron from '../../assets/bron.png'
 const Booking = () => {
     return (
         <Layout className={styles.block}>
-            <div className={styles.title}>BOOKING (БРОНЬ?) <br/></div>
+            <div className={styles.title}>Бронь</div>
+            <div className={styles.description}>Позвоните по номеру и наш администратор <br/> забронирует для вас место</div>
+            <Button className={styles.button} style={{
+                color: 'white',
+                fontFamily: 'Montserrat,  sans-serif',
+                fontSize: '27px',
+                fontWeight: 700,
+                lineHeight: '33px',
+                letterSpacing: '0em',
+                textAlign: 'center'
+            }}>
+                Позвонить
+            </Button>
         </Layout>
     );
 };

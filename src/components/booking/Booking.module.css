@@ -1,9 +1,33 @@
 .block{
     height: 550px;
     flex-shrink: 0;
-    background-color: #c016ac;
+    background-color: #292136;
+    background-image: url("../../assets/bron.png");
+    background-size: cover;
 }
 .title{
     font-size: 50px;
-    padding: 100px ;
+    padding-top: 100px;
+    padding-left: 640px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+.description{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.button{
+    background: #957CCB;
+    width: 300px;
+    height: 70px;
+    top: 50px;
+    left: 140px;
+    border-radius: 18px;
+    gap: 10px;
+    border-color: #957CCB;
+    margin-left: 420px;
 }
