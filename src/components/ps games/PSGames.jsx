@@ -10,6 +10,7 @@ import Injustice from '../../assets/Injustice_2_Legendary_Edition_cover 1.png'
 
 const PsGames = () => {
     return (
+        <section id = 'about'>
         <div className={styles.block}>
             <div className={styles.title}>Игры на PlayStation</div>
             <div className={styles.container}>
@@ -30,6 +31,7 @@ const PsGames = () => {
 
             </div>
         </div>
+        </section>
     );
 };
 

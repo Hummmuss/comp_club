@@ -5,6 +5,7 @@ import styles from "../booking/Booking.module.css";
 import bron from '../../assets/bron.png'
 const Booking = () => {
     return (
+        <section id = 'bron'>
         <Layout className={styles.block}>
             <div className={styles.title}>Бронь</div>
             <div className={styles.description}>Позвоните по номеру и наш администратор <br/> забронирует для вас место</div>
@@ -20,6 +21,7 @@ const Booking = () => {
                 Позвонить
             </Button>
         </Layout>
+        </section>
     );
 };
 

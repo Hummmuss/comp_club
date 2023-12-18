@@ -17,6 +17,7 @@ const Gallery = () => {
     };
 
     return (
+        <section id='gallery'>
         <Layout className={styles.block}>
             <div className={styles.title}>Галерея</div>
             <Content>
@@ -48,6 +49,7 @@ const Gallery = () => {
                 </Carousel>
             </Content>
         </Layout>
+        </section>
     );
 };
 

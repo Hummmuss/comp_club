@@ -9,6 +9,7 @@ import dollar from '../../assets/Dollar.png'
 
 const Main = () => {
     return (
+        <section id = 'main'>
         <Layout className={styles.main}>
             <Content className={styles.form}>
                 <div className={styles.rectangle}>
@@ -70,6 +71,7 @@ const Main = () => {
                 </div>
             </Content>
         </Layout>
+        </section>
     );
 };
 

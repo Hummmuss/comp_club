@@ -8,7 +8,7 @@ import vk from '..//..//assets/vk.png'
 
 const Footer = () => {
     return (
-        <section id="tariffs">
+        <section id="contacts">
         <Layout className={styles.block}>
             <div className={styles.block0}>
 

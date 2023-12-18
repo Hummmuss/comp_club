@@ -6,6 +6,7 @@ import AngleDown from "../../assets/Angle_Down.png"
 
 const ComputersPricing = () => {
     return (
+        <section id='tariff'>
         <Layout className={styles.pricing_list}>
 
             <div className={styles.content}>
@@ -52,7 +53,7 @@ const ComputersPricing = () => {
                 </div>
             </div>
         </Layout>
-
+        </section>
     );
 };
 
