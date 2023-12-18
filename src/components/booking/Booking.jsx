@@ -19,7 +19,11 @@ const Booking = () => {
                 letterSpacing: '0em',
                 textAlign: 'center'
             }}>
-                Позвонить
+                <object>
+                    <a href='#contacts' style={{color: 'white'}}>Позвонить</a>
+
+                </object>
+
             </Button>
             </div>
         </Layout>

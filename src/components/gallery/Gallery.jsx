@@ -6,6 +6,7 @@ import styles from './Gallery.module.css'
 import photo1 from '..//..//assets/photoSlider1.png'
 import photo2 from '..//..//assets/photoSlider2.png'
 import photo3 from '..//..//assets/photoSlider3.png'
+import photo4 from '..//..//assets/photoSlider3.png'
 import {CaretLeftOutlined, CaretRightOutlined, LeftCircleOutlined, RightCircleOutlined} from "@ant-design/icons";
 
 const Gallery = () => {
@@ -27,6 +28,9 @@ const Gallery = () => {
                           className={styles.carousel}
                           nextArrow={nextArrow}
                           prevArrow={prevArrow}
+                          slidesToShow={3}
+                          // swipeToSlide
+                          infinite={true}
                 >
                     <div>
                         <img
@@ -43,6 +47,18 @@ const Gallery = () => {
                     <div>
                         <img
                             src={photo3}
+                            className={styles.photo}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            src={photo1}
+                            className={styles.photo}
+                        />
+                    </div>
+                    <div>
+                        <img
+                            src={photo2}
                             className={styles.photo}
                         />
                     </div>

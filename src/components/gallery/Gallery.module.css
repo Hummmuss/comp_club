@@ -1,12 +1,12 @@
 .block {
     background-color: #000000;
-    height: 995px;
+    height: 800px;
     flex-shrink: 0;
 }
 
 .title {
     justify-content: center;
-    padding-left: 630px;
+    padding-left: 600px;
     padding-top: 109px;
     color: #FFF;
     font-family: Montserrat, sans-serif;
@@ -17,16 +17,20 @@
 }
 
 .carousel {
-    width: 900px;
+    width:1300px;
+    /*margin: 2px;*/
     height: 400px;
-    /*justify-content: center;*/
-    padding-top: 61px;
-    padding-left: 260px;
-    margin-left: 160px;
+    justify-content: center;
+    padding-top: 101px;
+    padding-left: 40px;
+    /*margin-left: 160px;*/
 }
 
 .photo {
-    width: 650px;
-    height: 400px;
+    width: 406px;
+    height: 309px;
+    margin-left: 101px;
     flex-shrink: 0;
+    justify-content: space-between;
+
 }

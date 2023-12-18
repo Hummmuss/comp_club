@@ -22,17 +22,24 @@ const Main = () => {
                         Ты попал по адресу!
                     </div>
 
-                    <Button href='#contacts' className={styles.buttonBron} style={{
+                    <Button  className={styles.buttonBron}
+                             style={{
                         color: 'white',
                         fontFamily: 'Montserrat,  sans-serif',
                         fontSize: '27px',
                         fontWeight: 700,
                         lineHeight: '33px',
                         letterSpacing: '0em',
-                        textAlign: 'center'
+                        textAlign: 'center',
+                        justifyContent: 'center',
+                        alignItems: 'center'
                     }}>
-                        Забронировать
+                        <object>
+                        <a href='#contacts' style={{color: 'white'}}>Забронировать</a>
+
+                        </object>
                     </Button>
+
                     <Button href='#tariff' className={styles.buttonTariff} style={{
                         color: 'white',
                         fontFamily: 'Montserrat, sans-serif',
