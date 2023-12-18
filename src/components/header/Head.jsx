@@ -11,7 +11,7 @@ const Head = () => {
 
             <Menu theme="dark" mode="horizontal" className={styles.menu}>
                 <Menu.Item key="logo"><img className={styles.logo} src={logo}/><a href='#main'></a></Menu.Item>
-                <Menu.Item key="about" className={styles.menu_item}><a href='#about'></a>О нас</Menu.Item>
+                <Menu.Item key="about" className={styles.menu_item}><a href='#main'></a>О нас</Menu.Item>
                 <Menu.Item key="tariffs" className={styles.menu_item}><a href='#tariff'></a>Тарифы</Menu.Item>
                 <Menu.Item key="booking" className={styles.menu_item}><a href='#bron'></a>Бронь</Menu.Item>
                 <Menu.Item key="gallery" className={styles.menu_item}><a href='#gallery'></a>Галерея</Menu.Item>

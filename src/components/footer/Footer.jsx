@@ -2,8 +2,8 @@ import React from 'react';
 import style from './Footer.module.css'
 import {Layout} from "antd";
 import styles from "../footer/Footer.module.css";
-import mapImage from '..//..//assets/Mapsicle Map.png'
-import insta from '..//..//assets/insta.png'
+import mapImage from '..//..//assets/map.jpg'
+import icon from '..//..//assets/ss.jpg'
 import vk from '..//..//assets/vk.png'
 
 const Footer = () => {
@@ -14,9 +14,10 @@ const Footer = () => {
 
             <div className={styles.title}>Навигация <br/>
                 <div className={styles.description}>
-                    О нас <br/>
-                    Тарифы <br/>
-                    Галерея <br/>Контакты <br/>
+                    <a href= '#main' style={{color: 'white'}}>О нас</a><br/>
+                    <a href ='#tariff' style={{color: 'white'}}>Тарифы</a>  <br/>
+                    <a href ='#gallery' style={{color: 'white'}}>Галерея</a>  <br/>
+                    <a href ='#contacts' style={{color: 'white'}}>Контакты</a>  <br/>
                 </div>
             </div>
 
@@ -25,11 +26,7 @@ const Footer = () => {
                     Дубнинская ул., 36, <br/> Москва этаж <br/> Цокольный <br/>
                     +7 (977) 099-81-87
                     <div className={styles.icons}>
-                        <img src={insta}/>
-                        <div className={styles.vki}>
-                            <img src={vk}/>
-                        </div>
-
+                        <img src={icon}/>
                     </div>
                 </div>
             </div>

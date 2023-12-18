@@ -7,6 +7,7 @@ const Booking = () => {
     return (
         <section id = 'bron'>
         <Layout className={styles.block}>
+            <div className={styles.rectangle}>
             <div className={styles.title}>Бронь</div>
             <div className={styles.description}>Позвоните по номеру и наш администратор <br/> забронирует для вас место</div>
             <Button className={styles.button} style={{
@@ -20,6 +21,7 @@ const Booking = () => {
             }}>
                 Позвонить
             </Button>
+            </div>
         </Layout>
         </section>
     );
